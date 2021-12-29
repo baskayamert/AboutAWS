@@ -1,0 +1,18 @@
+npm install -g @vue/cli
+npm install -g @aws-amplify/cli
+vue create projectname
+vue add tailwind
+
+amplify configure
+amplify init
+npm install aws-amplify @aws-amplify/ui-vue
+
+amplify add auth
+amplify status
+amplify push
+
+amplify add storage
+amplify add api
+
+amplify mock api
+amplify push
